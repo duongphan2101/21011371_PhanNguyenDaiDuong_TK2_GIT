@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main {
+    width: 960px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+    background-color: rgb(236, 193, 225);
+}
+
+.nav-subnav {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.subnav-li, .nav-right {
+    padding: 10px 0;
+}
+
+.subnav-li a {
+    font-weight: bold;
+    color: blue;
+}
+
+.subnav-li:hover a {
+    color: yellow;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-right_go {
+    padding: 5px;
+    background-color: rgb(13, 214, 214);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.header, .header-img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.sec {
+    position: relative;
+    width: 70%;
+    background: linear-gradient(to right, #00ffff 0%,#ffffff 50%,#ffffff 50%, #00ffff 100%);
+    padding: 20px 10px;
+}
+
+.sec-title {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 30px 0;
+}
+
+.sec-content {
+    width: 100%;
+    display: flex;
+}
+
+.sec-form {
+    position: relative;
+    width: 50%;
+    margin-left: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.row {
+    padding: 10px 0 10px 10px;
+}
+
+.row-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn, .inp {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.inp {
+    width: 90%;
+}
+
+.sec-txt {
+    text-indent: 10px;
+    width: 50%;
+    text-align: justify;
+    margin-right: 15px;
+}
+.asi {
+    position: relative;
+    width: 30%;
+}
+
+.asi-imgs {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.asi-1 {
+    width: 100%;
+    background-color: white;
+    padding: 0 5px;
+
+}
+
+.asi-1_title {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 3px 5px rgba(229, 255, 0, 0.5);
+}
+
+.footer p {
+    padding: 20px 20px;
+}
+
+.footer {
+    background-color: olive;
+    display: flex;
+    justify-content: space-between;
+}
